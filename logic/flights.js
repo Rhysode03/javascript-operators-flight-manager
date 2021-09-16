@@ -1,6 +1,7 @@
 function Flights() {
-    function calculateNumberOfFlights(passengers, capacity, flights) {
-        flights  = passengers/capacity + 1 
+    function calculateNumberOfFlights(passengers, capacity) {
+        let flights;
+        passengers / capacity + 1
     }
     return calculateNumberOfFlights();
 }
